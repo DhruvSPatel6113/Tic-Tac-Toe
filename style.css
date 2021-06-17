@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("Bg.jfif");
+    width: 100%;
+    height: 100%;
+    background-size: 100vh;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50;
+    margin-top: 2%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.row-1, .row-2, .row-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.input1, .input2, .input3, .input4, .input5, .input6, .input7, .input8, .input9 {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.resultMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    visibility: hidden;
+    font-size: 15;
+}
+
+.reset{
+    width: 150px;
+    height: 60px;
+    visibility: hidden;
+    color: white;
+    background-color: gray;
+    margin-top: 2%;
+    border: 1px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.resetMain{
+    display: flex;
+    justify-content: center;
+}
+
+.chance{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.chance h2{
+    font-size: 15;
+}

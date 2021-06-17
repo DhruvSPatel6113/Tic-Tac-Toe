@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="headingtext">Tic Tac Toe</h1>
+    </div>
+    <div class="chance" id="chance">
+        <h2></h2>
+    </div>
+    <div class="inputs">
+        <div class="row-1">
+            <button type="button" class="input1" id="input1" onclick="changeText('input1')">
+                <p></p>
+            </button>
+            <button class="input2" id="input2" onclick="changeText('input2')">
+                <p></p>
+            </button>
+            <button class="input3" id="input3" onclick="changeText('input3')">
+                <p></p>
+            </button>
+        </div>
+        <div class="row-2">
+            <button class="input4" id="input4" onclick="changeText('input4')">
+                <p></p>
+            </button>
+            <button class="input5" id="input5" onclick="changeText('input5')">
+                <p></p>
+            </button>
+            <button class="input6" id="input6" onclick="changeText('input6')">
+                <p></p>
+            </button>
+        </div>
+        <div class="row-3">
+            <button class="input7" id="input7" onclick="changeText('input7')">
+                <p></p>
+            </button>
+            <button class="input8" id="input8" onclick="changeText('input8')">
+                <p></p>
+            </button>
+            <button class="input9" id="input9" onclick="changeText('input9')">
+                <p></p>
+            </button>
+        </div>
+    </div>
+    <div class="resultMain" id="resultMain">
+        <div class="result" id="result">
+            <h2>Match Draw!</h2>
+        </div>
+        <div class="resetMain">
+            <button class="reset" id="reset" onclick="enable()">
+                <p>Replay</p>
+            </button>
+        </div>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
